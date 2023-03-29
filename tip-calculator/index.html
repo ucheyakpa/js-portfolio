@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tip Calculator</title>
+</head>
+<body>
+  <section>
+    <div class="container">
+      <div class="calc">
+        <h2>Uche's Tip Calculator</h2>
+        <form>
+          <div>
+            <label for="bill">Bill:</label>
+            <input type="text" id="bill" placeholder="$">
+          </div>
+          <div>
+            <label for="rate">Rate Service:</label>
+            <select id="rate">
+              <option disabled selected value="0">
+                -- Select an option --
+              </option>
+              <option value="0.15">15% - Excellent</option>
+              <option value="0.1">10% - Good</option>
+              <option value="0.05">5% - Fair</option>
+            </select>
+          </div>
+          <button class="btn">calculate</button>
+          <p class="error">Please enter bill and rate service</p>
+        </form>
+        <div class="result">
+          <p class="tip">Tip Amount: $0</p>
+          <p class="total">Total Bill: $0</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
