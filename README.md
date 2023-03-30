@@ -1,7 +1,16 @@
 # js-portfolio
+
 beginners javaScript projects
 
+<img
+  src="https://www.w3docs.com/uploads/media/default/0001/05/4482fe09d95a0be765154b9cefff5e07f7fc32ff.png"
+  raw=true
+  alt="javaScript-Image"
+  style="margin-right: 10px;"
+/>
+
 # PROJECT LINKS
+
 This beginners javaScript project links
 
 https://ucheyakpa.github.io/js-portfolio/clock
