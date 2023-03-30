@@ -8,8 +8,7 @@ https://ucheyakpa.github.io/js-portfolio/clock
 
 https://ucheyakpa.github.io/js-portfolio/animated-form
 
-(tip calculator)
-[https://ucheyakpa.github.io/js-portfolio/tip-calculator]
+https://ucheyakpa.github.io/js-portfolio/tip-calculator
 
 https://ucheyakpa.github.io/js-portfolio/double-landing-page
 
