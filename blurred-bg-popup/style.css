@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80");
+  background-size: cover;
+  text-align: center;
+  transition: filter 0.4s linear;
+}
+
+.container.active {
+  filter: blur(5px) brightness(0.7);
+}
+
+.container h1 {
+  color: #fff;
+  font-size: 5rem;
+  letter-spacing: 4px;
+  text-shadow: 3.5px 3.5px 4px rgba(0, 0, 0, 0.3);
+  margin-inline: 10px;
+}
+
+.container .btn {
+  padding: 1em 2em;
+  background: orangered;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 1px 4px 8px rgba(225, 225, 225, 0.68);
+  font-size: 20px;
+}
+
+.container .btn:hover {
+  filter: brightness(0.92);
+}
+
+.popup-container {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  top: 30%;
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 34px;
+  background-image: url("https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80");
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  transition: all 0.5s linear;
+}
+
+.popup-container.active {
+  visibility: hidden;
+  opacity: 0;
+  top: 10%;
+}
+
+h4 {
+  font-size: 2rem;
+  margin: 10px 0;
+  color: blueviolet;
+}
+
+label {
+  color: blueviolet;
+  font-family: sans-serif;
+}
+
+.input {
+  border: 2px solid;
+  padding: 0.7em;
+  margin: 10px 0;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 3px;
+  outline: none;
+}
+
+.input::placeholder {
+  color: lightgray;
+}
+
+.popup-btn {
+  background: orangered;
+  border: 2px solid;
+  font-size: 20px;
+  padding: 0.7em;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.close-icon {
+  position: absolute;
+  right: 24px;
+  cursor: pointer;
+}
+
+.close-icon:hover {
+  color: orangered;
+}
+
+@media screen and (max-width: 600px) {
+  .container h1 {
+    font-size: 2.8rem;
+  }
+}

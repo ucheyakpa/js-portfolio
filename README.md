@@ -15,11 +15,15 @@ This beginners javaScript project links
 
 https://ucheyakpa.github.io/js-portfolio/clock
 
+https://ucheyakpa.github.io/js-portfolio/3dboxes
+
 https://ucheyakpa.github.io/js-portfolio/animated-form
 
 https://ucheyakpa.github.io/js-portfolio/tip-calculator
 
 https://ucheyakpa.github.io/js-portfolio/double-landing-page
+
+https://ucheyakpa.github.io/js-portfolio/blurred-bg-popup
 
 https://ucheyakpa.github.io/js-portfolio/drum-kits
 
